@@ -187,7 +187,7 @@ class _HomePageState extends State<HomePage> {
                   children: [
                     products.isNotEmpty
                         ? Container(
-                            width: 180,
+                            width: 175,
                             height: 80,
                             child: ClipRRect(
                                 borderRadius: BorderRadius.circular(10),
@@ -207,7 +207,7 @@ class _HomePageState extends State<HomePage> {
                       width: 10,
                     ),
                     Container(
-                      width: 190,
+                      width: 175,
                       height: 80,
                       decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(15),
@@ -222,7 +222,7 @@ class _HomePageState extends State<HomePage> {
                 Row(
                   children: [
                     Container(
-                      width: 180,
+                      width: 175,
                       height: 80,
                       decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(15),
@@ -233,7 +233,7 @@ class _HomePageState extends State<HomePage> {
                       width: 10,
                     ),
                     Container(
-                      width: 190,
+                      width: 175,
                       height: 80,
                       decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(15),
@@ -320,9 +320,17 @@ class _HomePageState extends State<HomePage> {
                   ),
                   products.isNotEmpty
                       ? Container(
-                          width: 270,
+                          width: 250,
                           height: 200,
                           decoration: BoxDecoration(
+                            boxShadow: [
+                              BoxShadow(
+                                color: Colors.grey.withOpacity(0.5),
+                                spreadRadius: 5,
+                                blurRadius: 7,
+                                offset: Offset(0, 3),
+                              )
+                            ],
                             borderRadius: BorderRadius.circular(15),
                             color: Colors.orange.shade200,
                           ),

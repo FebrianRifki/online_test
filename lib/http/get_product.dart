@@ -64,23 +64,4 @@ class Product {
     }
     return products;
   }
-  // "id": 71,
-  //           "name": "Small Banner 1",
-  //           "page_url": "https://food.id/o/Barunmart/ringti-orijineol-remon-bogsunga-3O5biUJLQf",
-  //           "original_page_url": "https://food.id/o/Barunmart/ringti-orijineol-remon-bogsunga-3O5biUJLQf",
-  //           "media": "https://fdid.imgix.net/prod/1646913182122-SXBG5.jpg",
-  //           "is_active": true,
-  //           "orders": 0,
-  //           "banner_variant_id": 3,
-  //           "variant": {
-  //               "id": 3,
-  //               "name": "Small",
-  //               "slug": "small",
-  //               "created_at": "2021-10-18T04:19:51+07:00",
-  //               "updated_at": "2021-10-18T04:19:51+07:00"
-  //           },
-  //           "created_by": 36284,
-  //           "updated_by": 36284,
-  //           "created_at": "2022-01-13T20:19:50+07:00",
-  //           "updated_at": "2022-03-10T19:25:37+07:00"
 }
