@@ -26,13 +26,16 @@ class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: ListView(
-        children: [
-          _buildHeader(),
-          _buildSlider(),
-          _buildVoucer(),
-          _buildRecomendation()
-        ],
+      body: Scrollbar(
+        showTrackOnHover: true,
+        child: ListView(
+          children: [
+            _buildHeader(),
+            _buildSlider(),
+            _buildVoucer(),
+            _buildRecomendation()
+          ],
+        ),
       ),
     );
   }
@@ -197,7 +200,7 @@ class _HomePageState extends State<HomePage> {
                                 )),
                           )
                         : Container(
-                            width: 180,
+                            width: 175,
                             height: 80,
                             decoration: BoxDecoration(
                               borderRadius: BorderRadius.circular(15),
@@ -343,7 +346,7 @@ class _HomePageState extends State<HomePage> {
                           ),
                         )
                       : Container(
-                          width: 270,
+                          width: 250,
                           height: 200,
                           decoration: BoxDecoration(
                             borderRadius: BorderRadius.circular(15),
